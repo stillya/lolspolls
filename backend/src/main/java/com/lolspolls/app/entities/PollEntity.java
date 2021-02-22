@@ -43,12 +43,8 @@ public class PollEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
-    @Column(name = "date", nullable = false)
+    @Column(name = "date", nullable = false, insertable = false, updatable = false)
     private Date date;
-
-    @Column(name = "date", nullable = false)
-    @Type(type = "org.hibernate.type.PostgresUUIDType")
-    private UUID ownerId;
 
     //
     // Relations
@@ -58,7 +54,7 @@ public class PollEntity {
     @JoinColumn(name = "owner_id", referencedColumnName = "id")
     private UserEntity author;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "questions", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "poll", cascade = CascadeType.ALL)
     private List<QuestionEntity> questions;
 
 }

@@ -9,6 +9,8 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -43,14 +45,15 @@ public class QuestionEntity {
     @Column(name = "element_type", nullable = false)
     private ElementTypeEnum type;
 
-    @Column(name = "poll_id", nullable = false)
-    private UUID pollId;
-
     //
     // Relations
     //
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "elements", cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "poll_id")
+    private PollEntity poll;
+
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "question", cascade = CascadeType.ALL)
     private List<ElementEntity> elements;
 
 }

@@ -3,9 +3,12 @@ package com.lolspolls.app.entities;
 import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -29,10 +32,18 @@ public class ElementEntity {
     @Type(type = "org.hibernate.type.PostgresUUIDType")
     private UUID id;
 
-    @Column(name = "id", nullable = false)
+    @Column(name = "value", nullable = false)
     private String value;
 
-    @Column(name = "id", nullable = false)
+    @Column(name = "required", nullable = false)
     private boolean required;
+
+    //
+    // Relations
+    //
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "question_id")
+    private QuestionEntity question;
 
 }
