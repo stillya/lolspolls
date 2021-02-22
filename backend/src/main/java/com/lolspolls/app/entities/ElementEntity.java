@@ -22,6 +22,7 @@ import org.hibernate.annotations.Type;
 @Table(name = "elements")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(onConstructor_ = {@Builder})
 public class ElementEntity {
@@ -38,12 +39,15 @@ public class ElementEntity {
     @Column(name = "required", nullable = false)
     private boolean required;
 
+    @Column(name = "question_id", nullable = false)
+    private UUID questionId;
+
     //
     // Relations
     //
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "question_id")
+    @JoinColumn(name = "question_id", insertable = false, updatable = false)
     private QuestionEntity question;
 
 }

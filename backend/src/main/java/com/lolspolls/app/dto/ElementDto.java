@@ -10,6 +10,7 @@ import lombok.Data;
 public class ElementDto {
 
     private UUID id;
+    private UUID questionId;
     private String value;
     private boolean required;
 

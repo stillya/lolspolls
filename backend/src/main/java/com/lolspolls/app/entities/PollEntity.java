@@ -13,7 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -27,6 +26,7 @@ import org.hibernate.annotations.Type;
 @Table(name = "polls")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(onConstructor_ = {@Builder})
 public class PollEntity {
@@ -46,12 +46,15 @@ public class PollEntity {
     @Column(name = "date", nullable = false, insertable = false, updatable = false)
     private Date date;
 
+    @Column(name = "owner_id", nullable = false)
+    private UUID ownerId;
+
     //
     // Relations
     //
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "owner_id", referencedColumnName = "id")
+    @JoinColumn(name = "owner_id", referencedColumnName = "id", insertable = false, updatable = false)
     private UserEntity author;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "poll", cascade = CascadeType.ALL)

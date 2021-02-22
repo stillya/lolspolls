@@ -12,6 +12,7 @@ import lombok.Data;
 public class QuestionDto {
 
     private UUID id;
+    private UUID pollId;
     private String name;
     private String hint;
     private ElementTypeEnum type;

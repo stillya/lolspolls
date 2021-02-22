@@ -26,6 +26,7 @@ import org.hibernate.annotations.Type;
 @Table(name = "questions")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(onConstructor_ = {@Builder})
 public class QuestionEntity {
@@ -45,12 +46,15 @@ public class QuestionEntity {
     @Column(name = "element_type", nullable = false)
     private ElementTypeEnum type;
 
+    @Column(name = "poll_id", nullable = false)
+    private UUID pollId;
+
     //
     // Relations
     //
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "poll_id")
+    @JoinColumn(name = "poll_id", insertable = false, updatable = false)
     private PollEntity poll;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "question", cascade = CascadeType.ALL)

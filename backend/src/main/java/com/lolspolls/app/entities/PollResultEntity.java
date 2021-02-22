@@ -39,12 +39,15 @@ public class PollResultEntity {
     @Column(name = "responders_count")
     private int responders;
 
+    @Column(name = "poll_id", nullable = false)
+    private UUID pollId;
+
     //
     // Relations
     //
 
     @OneToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "poll_id")
+    @JoinColumn(name = "poll_id", insertable = false, updatable = false)
     private PollEntity poll;
 
 }

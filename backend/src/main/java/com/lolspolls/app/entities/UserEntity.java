@@ -19,6 +19,7 @@ import org.hibernate.annotations.Type;
 @Table(name = "users")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(onConstructor_ = {@Builder})
 public class UserEntity {
