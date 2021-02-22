@@ -2,6 +2,7 @@ package com.lolspolls.app.entities;
 
 import java.util.List;
 import java.util.UUID;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -49,7 +50,7 @@ public class QuestionEntity {
     // Relations
     //
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "elements")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "elements", cascade = CascadeType.ALL)
     private List<ElementEntity> elements;
 
 }

@@ -3,6 +3,7 @@ package com.lolspolls.app.entities;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -53,11 +54,11 @@ public class PollEntity {
     // Relations
     //
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "owner_id", referencedColumnName = "id")
     private UserEntity author;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "questions")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "questions", cascade = CascadeType.ALL)
     private List<QuestionEntity> questions;
 
 }

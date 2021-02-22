@@ -43,7 +43,7 @@ public class PollResultEntity {
     // Relations
     //
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "poll_id")
     private PollEntity poll;
 
