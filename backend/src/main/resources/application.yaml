@@ -9,4 +9,7 @@ spring:
     url: jdbc:postgresql://${POSTGRESQL_HOST:localhost}:${POSTGRESQL_PORT:5432}/${POSTGRESQL_DB:lolspolls_service}?currentSchema=${POSTGRESQL_SCHEMA:public}&ApplicationName=${POSTGRESQL_CONNECTION_NAME:lolspolls-service}
     username: ${POSTGRESQL_USER:postgres}
     password: ${POSTGRESQL_PASSWORD:postgres}
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
 
