@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import javax.transaction.Transactional;
 
-import com.lolspolls.app.dto.PollDto;
+import com.lolspolls.app.dto.read.PollDto;
 import com.lolspolls.app.repositories.PollRepository;
 import com.lolspolls.app.utils.Converter;
 import lombok.RequiredArgsConstructor;

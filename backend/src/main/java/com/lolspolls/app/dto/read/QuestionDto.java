@@ -1,4 +1,4 @@
-package com.lolspolls.app.dto;
+package com.lolspolls.app.dto.read;
 
 import java.util.List;
 import java.util.UUID;

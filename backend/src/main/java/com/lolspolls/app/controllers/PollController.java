@@ -1,6 +1,6 @@
 package com.lolspolls.app.controllers;
 
-import com.lolspolls.app.dto.PollDto;
+import com.lolspolls.app.dto.read.PollDto;
 import com.lolspolls.app.services.crud.PollsCrudService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

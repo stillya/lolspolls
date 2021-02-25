@@ -2,10 +2,10 @@ package com.lolspolls.app.utils;
 
 import java.util.stream.Collectors;
 
-import com.lolspolls.app.dto.ElementDto;
-import com.lolspolls.app.dto.PollDto;
-import com.lolspolls.app.dto.QuestionDto;
-import com.lolspolls.app.dto.UserDto;
+import com.lolspolls.app.dto.read.ElementDto;
+import com.lolspolls.app.dto.read.PollDto;
+import com.lolspolls.app.dto.read.QuestionDto;
+import com.lolspolls.app.dto.read.UserDto;
 import com.lolspolls.app.entities.ElementEntity;
 import com.lolspolls.app.entities.PollEntity;
 import com.lolspolls.app.entities.QuestionEntity;
