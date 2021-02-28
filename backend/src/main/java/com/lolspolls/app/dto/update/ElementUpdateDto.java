@@ -7,10 +7,11 @@ import lombok.Data;
 
 @Data
 @Builder
-public class PollUpdateDto {
+public class ElementUpdateDto {
 
     private UUID id;
-    private String name;
-    private String description;
+    private UUID questionId;
+    private String value;
+    private boolean required;
 
 }
