@@ -1,5 +1,6 @@
 package com.lolspolls.app.dto.read;
 
+import java.util.List;
 import java.util.UUID;
 
 import com.lolspolls.app.dto.types.ElementTypeEnum;
@@ -15,5 +16,6 @@ public class QuestionDto {
     private String name;
     private String hint;
     private ElementTypeEnum type;
+    private List<ElementDto> elements;
 
 }
