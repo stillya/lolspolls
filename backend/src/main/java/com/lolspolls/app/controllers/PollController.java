@@ -1,6 +1,6 @@
 package com.lolspolls.app.controllers;
 
-import com.lolspolls.app.dto.read.PollDto;
+import com.lolspolls.app.dto.create.PollCreateDto;
 import com.lolspolls.app.services.crud.PollsCrudService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +16,7 @@ public class PollController {
     private final PollsCrudService pollsCrudService;
 
     @PostMapping
-    public void createPoll(@RequestBody PollDto poll) {
+    public void createPoll(@RequestBody PollCreateDto poll) {
         this.pollsCrudService.createPoll(poll);
     }
 

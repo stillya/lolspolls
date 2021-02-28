@@ -1,8 +1,7 @@
 package com.lolspolls.app.dto.create;
 
-import java.util.List;
+import java.util.UUID;
 
-import com.lolspolls.app.dto.read.UserDto;
 import lombok.Builder;
 import lombok.Data;
 
@@ -12,6 +11,6 @@ public class PollCreateDto {
 
     private String name;
     private String description;
-    private UserDto owner;
+    private UUID owner;
 
 }

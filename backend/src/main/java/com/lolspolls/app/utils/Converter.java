@@ -2,10 +2,16 @@ package com.lolspolls.app.utils;
 
 import java.util.stream.Collectors;
 
+import com.lolspolls.app.dto.create.ElementCreateDto;
+import com.lolspolls.app.dto.create.PollCreateDto;
+import com.lolspolls.app.dto.create.QuestionCreateDto;
 import com.lolspolls.app.dto.read.ElementDto;
 import com.lolspolls.app.dto.read.PollDto;
 import com.lolspolls.app.dto.read.QuestionDto;
 import com.lolspolls.app.dto.read.UserDto;
+import com.lolspolls.app.dto.update.ElementUpdateDto;
+import com.lolspolls.app.dto.update.PollUpdateDto;
+import com.lolspolls.app.dto.update.QuestionUpdateDto;
 import com.lolspolls.app.entities.ElementEntity;
 import com.lolspolls.app.entities.PollEntity;
 import com.lolspolls.app.entities.QuestionEntity;
@@ -50,34 +56,54 @@ public class Converter {
                 .id(element.getId())
                 .questionId(element.getQuestionId())
                 .required(element.isRequired())
-                .value(element.getValue())
-                .build();
+                .value(element.getValue()).build();
     }
 
-    public static PollEntity PollDtoToPollEntity(PollDto poll) {
+    public static PollEntity PollCreateDtoToPollEntity(PollCreateDto poll) {
         return PollEntity.builder()
-                .author(Converter.UserDtoToUserEntity(poll.getOwner()))
-                .date(poll.getDate())
-                .description(poll.getDescription())
-                .id(poll.getId())
                 .name(poll.getName())
+                .description(poll.getDescription())
+                .ownerId(poll.getOwner())
                 .build();
     }
 
-    public static UserEntity UserDtoToUserEntity(UserDto user) {
-        return UserEntity.builder().id(user.getId()).name(user.getName()).username(user.getUsername()).build();
+    public static QuestionEntity QuestionCreateDtoToQuestionEntity(QuestionCreateDto question) {
+        return QuestionEntity.builder()
+                .pollId(question.getPollId())
+                .name(question.getName())
+                .hint(question.getHint())
+                .type(question.getType())
+                .build();
     }
 
-    public static QuestionEntity QuestionDtoToQuestionEntity(QuestionDto question) {
-        return QuestionEntity.builder().id(question.getId()).hint(question.getHint()).pollId(question.getPollId()).build();
+    public static ElementEntity ElementCreateDtoToElementEntity(ElementCreateDto element) {
+        return ElementEntity.builder()
+                .questionId(element.getQuestionId())
+                .value(element.getValue())
+                .required(element.isRequired())
+                .build();
     }
 
-    public static ElementEntity ElementDtoToElementEntity(ElementDto element) {
+    public static PollEntity PollUpdateDtoToPollEntity(PollUpdateDto poll) {
+        return PollEntity.builder().id(poll.getId()).name(poll.getName()).description(poll.getDescription()).build();
+    }
+
+    public static QuestionEntity QuestionUpdateDtoToQuestionEntity(QuestionUpdateDto question) {
+        return QuestionEntity.builder()
+                .id(question.getId())
+                .pollId(question.getPollId())
+                .name(question.getName())
+                .hint(question.getHint())
+                .type(question.getType())
+                .build();
+    }
+
+    public static ElementEntity ElementUpdateDtoToElementEntity(ElementUpdateDto element) {
         return ElementEntity.builder()
                 .id(element.getId())
                 .questionId(element.getQuestionId())
-                .required(element.isRequired())
                 .value(element.getValue())
+                .required(element.isRequired())
                 .build();
     }
 

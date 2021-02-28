@@ -3,10 +3,11 @@ package com.lolspolls.app.services.crud;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
-
 import javax.transaction.Transactional;
 
+import com.lolspolls.app.dto.create.PollCreateDto;
 import com.lolspolls.app.dto.read.PollDto;
+import com.lolspolls.app.dto.update.PollUpdateDto;
 import com.lolspolls.app.repositories.PollRepository;
 import com.lolspolls.app.utils.Converter;
 import lombok.RequiredArgsConstructor;
@@ -33,15 +34,15 @@ public class PollsCrudService {
     }
 
     @Transactional
-    public PollDto createPoll(PollDto poll) {
+    public PollDto createPoll(PollCreateDto poll) {
         log.debug("CREATE POLL");
-        return Converter.PollEntityToPollDto(this.pollRepository.save(Converter.PollDtoToPollEntity(poll)));
+        return Converter.PollEntityToPollDto(this.pollRepository.save(Converter.PollCreateDtoToPollEntity(poll)));
     }
 
     @Transactional
-    public PollDto updatePoll(PollDto poll) {
+    public PollDto updatePoll(PollUpdateDto poll) {
         log.debug("CREATE POLL");
-        return Converter.PollEntityToPollDto(this.pollRepository.save(Converter.PollDtoToPollEntity(poll)));
+        return Converter.PollEntityToPollDto(this.pollRepository.save(Converter.PollUpdateDtoToPollEntity(poll)));
     }
 
 }
