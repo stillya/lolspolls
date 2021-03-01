@@ -34,7 +34,7 @@ public class Converter {
                 .build();
     }
 
-    private static QuestionDto QuestionEntityToQuestionDto(QuestionEntity question) {
+    public static QuestionDto QuestionEntityToQuestionDto(QuestionEntity question) {
         return QuestionDto.builder()
                 .id(question.getId())
                 .pollId(question.getPollId())

@@ -2,7 +2,6 @@ package com.lolspolls.app.dto.update;
 
 import java.util.UUID;
 
-import com.lolspolls.app.dto.types.ElementTypeEnum;
 import lombok.Builder;
 import lombok.Data;
 
@@ -14,6 +13,6 @@ public class QuestionUpdateDto {
     private UUID pollId;
     private String name;
     private String hint;
-    private ElementTypeEnum type;
+    private String type;
 
 }

@@ -15,7 +15,7 @@ public class QuestionDto {
     private UUID pollId;
     private String name;
     private String hint;
-    private ElementTypeEnum type;
+    private String type;
     private List<ElementDto> elements;
 
 }

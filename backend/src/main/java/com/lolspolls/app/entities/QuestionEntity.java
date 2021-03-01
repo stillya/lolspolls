@@ -33,7 +33,7 @@ public class QuestionEntity {
 
     @Id
     @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Type(type = "org.hibernate.type.PostgresUUIDType")
     private UUID id;
 
@@ -44,7 +44,7 @@ public class QuestionEntity {
     private String hint;
 
     @Column(name = "element_type", nullable = false)
-    private ElementTypeEnum type;
+    private String type;
 
     @Column(name = "poll_id", nullable = false)
     private UUID pollId;

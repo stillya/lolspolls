@@ -2,17 +2,22 @@ package com.lolspolls.app.dto.create;
 
 import java.util.UUID;
 
-import com.lolspolls.app.dto.types.ElementTypeEnum;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class QuestionCreateDto {
 
     private UUID pollId;
     private String name;
     private String hint;
-    private ElementTypeEnum type;
+    private String type;
 
 }

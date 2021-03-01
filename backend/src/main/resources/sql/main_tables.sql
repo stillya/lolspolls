@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS polls
     id          UUID         NOT NULL,
     name        VARCHAR(255) NOT NULL,
     description TEXT         NOT NULL,
-    date        TIMESTAMP    NOT NULL,
+    date        TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
     owner_id    UUID         NOT NULL,
     PRIMARY KEY (id),
     CONSTRAINT poll_user FOREIGN KEY (owner_id) REFERENCES users (id)
