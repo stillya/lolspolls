@@ -1,6 +1,6 @@
 package com.lolspolls.app.dto.read;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
@@ -14,7 +14,7 @@ public class PollDto {
     private UUID id;
     private String name;
     private String description;
-    private Date date;
+    private LocalDateTime date;
     private UserDto owner;
     private List<QuestionDto> questions;
 

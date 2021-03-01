@@ -1,5 +1,6 @@
 package com.lolspolls.app.utils;
 
+import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 import com.lolspolls.app.dto.create.ElementCreateDto;
@@ -26,15 +27,11 @@ public class Converter {
                 .name(poll.getName())
                 .description(poll.getDescription())
                 .owner(Converter.UserEntityToUserDto(poll.getAuthor()))
-                .questions(poll.getQuestions()
+                .questions(poll.getQuestions() == null ? new ArrayList<>() : poll.getQuestions()
                         .stream()
                         .map(Converter::QuestionEntityToQuestionDto)
                         .collect(Collectors.toList()))
                 .build();
-    }
-
-    private static UserDto UserEntityToUserDto(UserEntity user) {
-        return UserDto.builder().id(user.getId()).name(user.getName()).username(user.getUsername()).build();
     }
 
     private static QuestionDto QuestionEntityToQuestionDto(QuestionEntity question) {
@@ -44,7 +41,7 @@ public class Converter {
                 .hint(question.getHint())
                 .name(question.getName())
                 .type(question.getType())
-                .elements(question.getElements()
+                .elements(question.getElements() == null ? new ArrayList<>() : question.getElements()
                         .stream()
                         .map(Converter::ElementEntityToElementDto)
                         .collect(Collectors.toList()))
@@ -56,14 +53,16 @@ public class Converter {
                 .id(element.getId())
                 .questionId(element.getQuestionId())
                 .required(element.isRequired())
-                .value(element.getValue()).build();
+                .value(element.getValue())
+                .build();
     }
 
-    public static PollEntity PollCreateDtoToPollEntity(PollCreateDto poll) {
+    public static PollEntity PollCreateDtoToPollEntity(PollCreateDto poll, UserEntity user) {
         return PollEntity.builder()
                 .name(poll.getName())
                 .description(poll.getDescription())
                 .ownerId(poll.getOwner())
+                .author(user)
                 .build();
     }
 
@@ -105,6 +104,14 @@ public class Converter {
                 .value(element.getValue())
                 .required(element.isRequired())
                 .build();
+    }
+
+    public static UserDto UserEntityToUserDto(UserEntity user) {
+        return UserDto.builder().id(user.getId()).username(user.getUsername()).name(user.getName()).build();
+    }
+
+    public static UserEntity UserDtoToUserEntity(UserDto user) {
+        return UserEntity.builder().id(user.getId()).name(user.getName()).username(user.getUsername()).build();
     }
 
 }

@@ -29,7 +29,7 @@ public class ElementEntity {
 
     @Id
     @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Type(type = "org.hibernate.type.PostgresUUIDType")
     private UUID id;
 
@@ -46,7 +46,7 @@ public class ElementEntity {
     // Relations
     //
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "question_id", insertable = false, updatable = false)
     private QuestionEntity question;
 

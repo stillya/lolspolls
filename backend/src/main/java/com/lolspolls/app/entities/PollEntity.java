@@ -1,6 +1,6 @@
 package com.lolspolls.app.entities;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 import javax.persistence.CascadeType;
@@ -20,6 +20,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.Type;
 
 @Entity
@@ -28,12 +29,12 @@ import org.hibernate.annotations.Type;
 @Setter
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor(onConstructor_ = {@Builder})
+@AllArgsConstructor
 public class PollEntity {
 
     @Id
     @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Type(type = "org.hibernate.type.PostgresUUIDType")
     private UUID id;
 
@@ -43,8 +44,9 @@ public class PollEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
+    @CreationTimestamp
     @Column(name = "date", nullable = false, insertable = false, updatable = false)
-    private Date date;
+    private LocalDateTime date;
 
     @Column(name = "owner_id", nullable = false)
     private UUID ownerId;
@@ -53,8 +55,8 @@ public class PollEntity {
     // Relations
     //
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "owner_id", referencedColumnName = "id", insertable = false, updatable = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @JoinColumn(name = "owner_id", insertable = false, updatable = false)
     private UserEntity author;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "poll", cascade = CascadeType.ALL)
