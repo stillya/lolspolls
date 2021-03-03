@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import com.lolspolls.app.dto.create.QuestionCreateDto;
 import com.lolspolls.app.dto.read.QuestionDto;
+import com.lolspolls.app.dto.update.QuestionUpdateDto;
 import com.lolspolls.app.repositories.QuestionRepository;
 import com.lolspolls.app.utils.Converter;
 import lombok.RequiredArgsConstructor;
@@ -36,6 +37,12 @@ public class QuestionsCrudService {
     public QuestionDto createQuestion(@RequestBody QuestionCreateDto question) {
         log.debug("CREATE QUESTION BY " + question.getPollId());
         return Converter.QuestionEntityToQuestionDto(this.questionRepository.save(Converter.QuestionCreateDtoToQuestionEntity(
+                question)));
+    }
+
+    public QuestionDto updateQuestion(QuestionUpdateDto question) {
+        log.debug("UPDATE QUESTION BY ID" + question.getId());
+        return Converter.QuestionEntityToQuestionDto(this.questionRepository.save(Converter.QuestionUpdateDtoToQuestionEntity(
                 question)));
     }
 

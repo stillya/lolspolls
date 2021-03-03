@@ -50,7 +50,7 @@ public class PollsCrudService {
 
     @Transactional
     public PollDto updatePoll(PollUpdateDto poll) {
-        log.debug("CREATE POLL");
+        log.debug("UPDATE POLL BY ID" + poll.getId());
         return Converter.PollEntityToPollDto(this.pollRepository.save(Converter.PollUpdateDtoToPollEntity(poll)));
     }
 
