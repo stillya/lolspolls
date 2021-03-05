@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS polls_results
     id                  UUID            NOT NULL,
     poll_id             UUID            NOT NULL,
     content             TEXT            NOT NULL,
-    responders_count    INTEGER,
     PRIMARY KEY (id),
     FOREIGN KEY (poll_id) REFERENCES polls (id)
 );

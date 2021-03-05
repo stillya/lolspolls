@@ -5,9 +5,11 @@ import java.util.stream.Collectors;
 
 import com.lolspolls.app.dto.create.ElementCreateDto;
 import com.lolspolls.app.dto.create.PollCreateDto;
+import com.lolspolls.app.dto.create.PollResultCreateDto;
 import com.lolspolls.app.dto.create.QuestionCreateDto;
 import com.lolspolls.app.dto.read.ElementDto;
 import com.lolspolls.app.dto.read.PollDto;
+import com.lolspolls.app.dto.read.PollResultDto;
 import com.lolspolls.app.dto.read.QuestionDto;
 import com.lolspolls.app.dto.read.UserDto;
 import com.lolspolls.app.dto.update.ElementUpdateDto;
@@ -15,6 +17,7 @@ import com.lolspolls.app.dto.update.PollUpdateDto;
 import com.lolspolls.app.dto.update.QuestionUpdateDto;
 import com.lolspolls.app.entities.ElementEntity;
 import com.lolspolls.app.entities.PollEntity;
+import com.lolspolls.app.entities.PollResultEntity;
 import com.lolspolls.app.entities.QuestionEntity;
 import com.lolspolls.app.entities.UserEntity;
 
@@ -112,6 +115,22 @@ public class Converter {
 
     public static UserEntity UserDtoToUserEntity(UserDto user) {
         return UserEntity.builder().id(user.getId()).name(user.getName()).username(user.getUsername()).build();
+    }
+
+    public static PollResultEntity PollResultCreateDtoToPollResultEntity(PollResultCreateDto pollResult) {
+        return PollResultEntity.builder()
+                .content(pollResult.getContent())
+                .pollId(pollResult.getPollId())
+                .build();
+    }
+
+    public static PollResultDto PollResultEntityToPollResultToDto(PollResultEntity pollResult) {
+        return PollResultDto.builder()
+                .id(pollResult.getId())
+                .content(pollResult.getContent())
+                .responders(pollResult.getResponders())
+                .poll(Converter.PollEntityToPollDto(pollResult.getPoll()))
+                .build();
     }
 
 }

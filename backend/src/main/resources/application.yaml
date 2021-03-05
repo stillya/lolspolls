@@ -11,6 +11,4 @@ spring:
     password: ${POSTGRESQL_PASSWORD:postgres}
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
-logging:
-  level: debug
 

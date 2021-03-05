@@ -1,5 +1,6 @@
 package com.lolspolls.app.repositories;
 
+import java.util.List;
 import java.util.UUID;
 
 import com.lolspolls.app.entities.ElementEntity;
@@ -8,5 +9,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ElementRepository extends CrudRepository<ElementEntity, UUID> {
+
+    List<ElementEntity> findByQuestionId(UUID id);
 
 }

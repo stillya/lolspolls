@@ -13,6 +13,7 @@ import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -20,8 +21,8 @@ import org.hibernate.annotations.Type;
 
 @Entity
 @Table(name = "polls_results")
-@Getter
-@Setter
+@Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor(onConstructor_ = {@Builder})
 public class PollResultEntity {
@@ -34,9 +35,6 @@ public class PollResultEntity {
 
     @Column(name = "content", nullable = false)
     private String content;
-
-    @Column(name = "responders_count")
-    private int responders;
 
     @Column(name = "poll_id", nullable = false)
     private UUID pollId;
