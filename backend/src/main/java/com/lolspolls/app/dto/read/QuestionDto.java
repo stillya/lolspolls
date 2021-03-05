@@ -3,7 +3,6 @@ package com.lolspolls.app.dto.read;
 import java.util.List;
 import java.util.UUID;
 
-import com.lolspolls.app.dto.types.ElementTypeEnum;
 import lombok.Builder;
 import lombok.Data;
 
