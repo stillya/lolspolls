@@ -128,7 +128,6 @@ public class Converter {
         return PollResultDto.builder()
                 .id(pollResult.getId())
                 .content(pollResult.getContent())
-                .responders(pollResult.getResponders())
                 .poll(Converter.PollEntityToPollDto(pollResult.getPoll()))
                 .build();
     }

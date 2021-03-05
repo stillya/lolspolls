@@ -11,7 +11,6 @@ public class PollResultDto {
 
     private UUID id;
     private String content;
-    private int responders;
     private PollDto poll;
 
 }
