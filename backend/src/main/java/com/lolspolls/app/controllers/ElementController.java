@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -32,12 +33,12 @@ public class ElementController {
     }
 
     @PostMapping
-    public ElementDto createElement(ElementCreateDto element) {
+    public ElementDto createElement(@RequestBody ElementCreateDto element) {
         return this.elementsCrudService.createElement(element);
     }
 
     @PutMapping(path = "/update")
-    public ElementDto updateElement(ElementUpdateDto element) {
+    public ElementDto updateElement(@RequestBody ElementUpdateDto element) {
         return this.elementsCrudService.updateElement(element);
     }
 
