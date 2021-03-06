@@ -9,7 +9,7 @@ import lombok.Data;
 @Builder
 public class PollResultCreateDto {
 
-    private UUID PollId;
+    private UUID pollId;
     private String content;
 
 }

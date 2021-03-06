@@ -1,5 +1,6 @@
 package com.lolspolls.app.controllers;
 
+import java.util.List;
 import java.util.UUID;
 
 import com.lolspolls.app.dto.create.PollCreateDto;
@@ -25,6 +26,11 @@ public class PollController {
     //
     // API
     //
+
+    @GetMapping
+    public List<PollDto> getPolls() {
+        return this.pollsCrudService.getPolls();
+    }
 
     @PostMapping
     public PollDto createPoll(@RequestBody PollCreateDto poll) {
