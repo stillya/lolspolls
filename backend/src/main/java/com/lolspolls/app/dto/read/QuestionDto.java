@@ -1,6 +1,6 @@
 package com.lolspolls.app.dto.read;
 
-import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 import lombok.Builder;
@@ -15,6 +15,6 @@ public class QuestionDto {
     private String name;
     private String hint;
     private String type;
-    private List<ElementDto> elements;
+    private Set<ElementDto> elements;
 
 }

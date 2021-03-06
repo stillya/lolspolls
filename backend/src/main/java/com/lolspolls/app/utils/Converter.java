@@ -1,6 +1,6 @@
 package com.lolspolls.app.utils;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.stream.Collectors;
 
 import com.lolspolls.app.dto.create.ElementCreateDto;
@@ -30,10 +30,10 @@ public class Converter {
                 .name(poll.getName())
                 .description(poll.getDescription())
                 .owner(Converter.UserEntityToUserDto(poll.getAuthor()))
-                .questions(poll.getQuestions() == null ? new ArrayList<>() : poll.getQuestions()
+                .questions(poll.getQuestions() == null ? new HashSet<>() : poll.getQuestions()
                         .stream()
                         .map(Converter::QuestionEntityToQuestionDto)
-                        .collect(Collectors.toList()))
+                        .collect(Collectors.toSet()))
                 .build();
     }
 
@@ -44,10 +44,10 @@ public class Converter {
                 .hint(question.getHint())
                 .name(question.getName())
                 .type(question.getType())
-                .elements(question.getElements() == null ? new ArrayList<>() : question.getElements()
+                .elements(question.getElements() == null ? new HashSet<>() : question.getElements()
                         .stream()
                         .map(Converter::ElementEntityToElementDto)
-                        .collect(Collectors.toList()))
+                        .collect(Collectors.toSet()))
                 .build();
     }
 
@@ -86,27 +86,37 @@ public class Converter {
                 .build();
     }
 
-    public static PollEntity PollUpdateDtoToPollEntity(PollUpdateDto poll) {
-        return PollEntity.builder().id(poll.getId()).name(poll.getName()).description(poll.getDescription()).build();
+    public static PollEntity UpdatePollEntity(PollUpdateDto updatePoll, PollEntity poll) {
+        if (updatePoll.getName() != null) {
+            poll.setName(updatePoll.getName());
+        }
+        if (updatePoll.getDescription() != null) {
+            poll.setDescription(updatePoll.getDescription());
+        }
+        return poll;
     }
 
-    public static QuestionEntity QuestionUpdateDtoToQuestionEntity(QuestionUpdateDto question) {
-        return QuestionEntity.builder()
-                .id(question.getId())
-                .pollId(question.getPollId())
-                .name(question.getName())
-                .hint(question.getHint())
-                .type(question.getType())
-                .build();
+    public static QuestionEntity UpdateQuestionEntity(QuestionUpdateDto updateQuestion, QuestionEntity question) {
+        if (updateQuestion.getName() != null) {
+            question.setName(updateQuestion.getName());
+        }
+        if (updateQuestion.getHint() != null) {
+            question.setHint(updateQuestion.getHint());
+        }
+        if (updateQuestion.getType() != null) {
+            question.setType(updateQuestion.getType());
+        }
+        return question;
     }
 
-    public static ElementEntity ElementUpdateDtoToElementEntity(ElementUpdateDto element) {
-        return ElementEntity.builder()
-                .id(element.getId())
-                .questionId(element.getQuestionId())
-                .value(element.getValue())
-                .required(element.isRequired())
-                .build();
+    public static ElementEntity UpdateElementEntity(ElementUpdateDto updateElement, ElementEntity element) {
+        if (updateElement.getValue() != null) {
+            element.setValue(updateElement.getValue());
+        }
+        if (updateElement.getRequired() != null) {
+            element.setRequired(updateElement.getRequired());
+        }
+        return element;
     }
 
     public static UserDto UserEntityToUserDto(UserEntity user) {
@@ -118,10 +128,7 @@ public class Converter {
     }
 
     public static PollResultEntity PollResultCreateDtoToPollResultEntity(PollResultCreateDto pollResult) {
-        return PollResultEntity.builder()
-                .content(pollResult.getContent())
-                .pollId(pollResult.getPollId())
-                .build();
+        return PollResultEntity.builder().content(pollResult.getContent()).pollId(pollResult.getPollId()).build();
     }
 
     public static PollResultDto PollResultEntityToPollResultToDto(PollResultEntity pollResult) {

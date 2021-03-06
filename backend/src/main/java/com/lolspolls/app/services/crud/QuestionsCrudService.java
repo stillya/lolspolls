@@ -3,10 +3,12 @@ package com.lolspolls.app.services.crud;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
+import javax.transaction.Transactional;
 
 import com.lolspolls.app.dto.create.QuestionCreateDto;
 import com.lolspolls.app.dto.read.QuestionDto;
 import com.lolspolls.app.dto.update.QuestionUpdateDto;
+import com.lolspolls.app.entities.QuestionEntity;
 import com.lolspolls.app.repositories.QuestionRepository;
 import com.lolspolls.app.utils.Converter;
 import lombok.RequiredArgsConstructor;
@@ -34,16 +36,20 @@ public class QuestionsCrudService {
                 .collect(Collectors.toList());
     }
 
+    @Transactional
     public QuestionDto createQuestion(@RequestBody QuestionCreateDto question) {
         log.debug("CREATE QUESTION BY " + question.getPollId());
         return Converter.QuestionEntityToQuestionDto(this.questionRepository.save(Converter.QuestionCreateDtoToQuestionEntity(
                 question)));
     }
 
+    @Transactional
     public QuestionDto updateQuestion(QuestionUpdateDto question) {
         log.debug("UPDATE QUESTION BY ID" + question.getId());
-        return Converter.QuestionEntityToQuestionDto(this.questionRepository.save(Converter.QuestionUpdateDtoToQuestionEntity(
-                question)));
+        QuestionEntity questionEntity = this.questionRepository.findById(question.getId()).orElseThrow();
+        return Converter.QuestionEntityToQuestionDto(this.questionRepository.save(Converter.UpdateQuestionEntity(
+                question,
+                questionEntity)));
     }
 
 }

@@ -12,6 +12,4 @@ public interface PollResultRepository extends CrudRepository<PollResultEntity, U
 
     List<PollResultEntity> findAll();
 
-
-
 }

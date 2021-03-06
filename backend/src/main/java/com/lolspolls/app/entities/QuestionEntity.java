@@ -1,6 +1,6 @@
 package com.lolspolls.app.entities;
 
-import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -57,6 +57,6 @@ public class QuestionEntity {
     private PollEntity poll;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "question", cascade = CascadeType.ALL)
-    private List<ElementEntity> elements;
+    private Set<ElementEntity> elements;
 
 }

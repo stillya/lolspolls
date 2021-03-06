@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import com.lolspolls.app.dto.create.ElementCreateDto;
 import com.lolspolls.app.dto.read.ElementDto;
 import com.lolspolls.app.dto.update.ElementUpdateDto;
+import com.lolspolls.app.entities.ElementEntity;
 import com.lolspolls.app.repositories.ElementRepository;
 import com.lolspolls.app.utils.Converter;
 import lombok.RequiredArgsConstructor;
@@ -37,8 +38,10 @@ public class ElementsCrudService {
     }
 
     public ElementDto updateElement(ElementUpdateDto elementUpdateDto) {
-        return Converter.ElementEntityToElementDto(this.elementRepository.save(Converter.ElementUpdateDtoToElementEntity(
-                elementUpdateDto)));
+        ElementEntity elementEntity = this.elementRepository.findById(elementUpdateDto.getId()).orElseThrow();
+        return Converter.ElementEntityToElementDto(this.elementRepository.save(Converter.UpdateElementEntity(
+                elementUpdateDto,
+                elementEntity)));
     }
 
 }

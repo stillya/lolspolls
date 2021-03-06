@@ -12,6 +12,6 @@ public class ElementUpdateDto {
     private UUID id;
     private UUID questionId;
     private String value;
-    private boolean required;
+    private Boolean required;
 
 }

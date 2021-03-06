@@ -2,6 +2,7 @@ package com.lolspolls.app.services.crud;
 
 import java.util.List;
 import java.util.stream.Collectors;
+import javax.transaction.Transactional;
 
 import com.lolspolls.app.dto.create.PollResultCreateDto;
 import com.lolspolls.app.dto.read.PollResultDto;
@@ -22,6 +23,7 @@ public class PollResultsCrudService {
     // API
     //
 
+    @Transactional
     public PollResultDto createPollResult(PollResultCreateDto pollResult) {
         return Converter.PollResultEntityToPollResultToDto(this.pollResultRepository.save(Converter.PollResultCreateDtoToPollResultEntity(
                 pollResult)));
