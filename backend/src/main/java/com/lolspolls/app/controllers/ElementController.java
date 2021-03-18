@@ -28,8 +28,8 @@ public class ElementController {
     //
 
     @GetMapping(path = "/{elementId}")
-    public List<ElementDto> getElementsById(@PathVariable("elementId") UUID elementId) {
-        return this.elementsCrudService.getElementsById(elementId);
+    public List<ElementDto> getElementsByQuestionId(@PathVariable("elementId") UUID elementId) {
+        return this.elementsCrudService.getElementsByQuestionId(elementId);
     }
 
     @PostMapping

@@ -25,7 +25,7 @@ public class ElementsCrudService {
     // API
     //
 
-    public List<ElementDto> getElementsById(UUID id) {
+    public List<ElementDto> getElementsByQuestionId(UUID id) {
         return this.elementRepository.findByQuestionId(id)
                 .stream()
                 .map(Converter::ElementEntityToElementDto)
