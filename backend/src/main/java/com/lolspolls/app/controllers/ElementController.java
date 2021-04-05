@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/element")
 @RequiredArgsConstructor
-public class ELElementController {
+public class ElementController {
 
     private final ElementsCrudService elementsCrudService;
 
