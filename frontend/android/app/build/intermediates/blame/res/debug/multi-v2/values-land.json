@@ -4,7 +4,7 @@
             "outputFile": "/home/stilya/code/java/stillya/lolspolls/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/stilya/.gradle/caches/transforms-2/files-2.1/268be37c762c3f1e21922779bb4297e4/material-1.1.0/res/values-land/values-land.xml",
+                    "source": "/home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/stilya/.gradle/caches/transforms-2/files-2.1/3a1c9e556421120b91c14e3b0d627909/appcompat-1.2.0/res/values-land/values-land.xml",
+                    "source": "/home/stilya/.gradle/caches/transforms-3/c6cc85af3ad68c4f8bd550d5e6c5090e/transformed/appcompat-1.2.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
