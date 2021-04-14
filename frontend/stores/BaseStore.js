@@ -1,10 +1,10 @@
-import { observable } from "mobx";
+import { action, observable } from "mobx";
 
 class BaseStore {
+  @observable 
+  loading = true
   @observable
-  loading = false
-  @observable
-  loaded = null
+  loaded = false
   @observable
   data = null
 
@@ -23,23 +23,29 @@ class BaseStore {
   // Helpers
   //
 
-  @action.bound
+  @action
   loadDataSuccess(data) {
+    console.log(data)
     this.loading = false
     this.loaded = true
     this.data = data
+    console.log("new" + this.loaded)
     return data
   }
 
-  @action.bound
+  @action
   loadDataError(error) {
+    console.log("new")
     this.loading = false
     this.loaded = true
     this.error = `${error}`
     this.data = null
+
 
     //this.notificationStore.notifyError(error) notify about error
     throw error
   }
 
 }
+
+export default BaseStore

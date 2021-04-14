@@ -1,12 +1,13 @@
 import React from 'react';
-import {Text, View} from 'react-native'
+import {NativeRouter,Route,Link} from "react-router-native";
+import Routes from './app/Routes';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View>
-        <Text>Hello World</Text>
-      </View>
+        <NativeRouter>
+          <Routes/>
+        </NativeRouter>
     );
   }
 }

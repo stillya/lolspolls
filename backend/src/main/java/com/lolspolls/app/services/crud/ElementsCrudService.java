@@ -38,7 +38,7 @@ public class ElementsCrudService {
     }
 
     public ElementDto updateElement(ElementUpdateDto elementUpdateDto) {
-        ElementEntity elementEntity = this.elementRepository.findById(elementUpdateDto.getId()).orElseThrow();
+        ElementEntity elementEntity = this.elementRepository.findById(elementUpdateDto.getId()).orElseThrow(RuntimeException::new);
         return Converter.ElementEntityToElementDto(this.elementRepository.save(Converter.UpdateElementEntity(
                 elementUpdateDto,
                 elementEntity)));
