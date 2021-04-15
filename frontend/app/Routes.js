@@ -9,13 +9,13 @@ function Routes() {
     return (
         <Switch>
             <Route path="/polls">
-                <PollList/>
+                <PollList />
             </Route>
             <Route path="/polls/:pollId">
-                <Poll/>
+                <Poll />
             </Route>
             <Route path="/questions">
-                <QuestionList/>
+                <QuestionList />
             </Route>
             <Route exact path="/">
                 <Redirect to="/polls" />

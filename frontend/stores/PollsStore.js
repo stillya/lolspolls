@@ -3,7 +3,7 @@ import { requestCreatePoll, requestDeletePoll, requestPolls } from "../api/polls
 import BaseStore from "./BaseStore";
 
 
-class PollsStore extends BaseStore { 
+class PollsStore extends BaseStore {
 
     constructor() {
         super()
@@ -17,8 +17,8 @@ class PollsStore extends BaseStore {
             loadPolls: action.bound,
             createPoll: action.bound,
             deletePoll: action.bound,
-          });
-      }
+        });
+    }
 
     @action.bound
     loadPolls() {
@@ -26,13 +26,13 @@ class PollsStore extends BaseStore {
         return this.loadData(rest)
     }
 
-    @action 
-    createPoll(poll) { 
+    @action
+    createPoll(poll) {
         return requestCreatePoll(poll)
     }
 
     @action
-    deletePoll(poll) { 
+    deletePoll(poll) {
         return requestDeletePoll(poll)
     }
 }

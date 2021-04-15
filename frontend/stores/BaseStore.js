@@ -1,7 +1,7 @@
 import { action, makeAutoObservable, makeObservable, observable } from "mobx";
 
 class BaseStore {
-  @observable 
+  @observable
   loading = true
   @observable
   loaded = false

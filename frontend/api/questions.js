@@ -12,8 +12,8 @@ export function requestQuestions(pollId) {
 export function requestCreateQuestion(question) {
     return axios
         .post(
-            uri + '/question/', 
-            {...question}
+            uri + '/question/',
+            { ...question }
         ).then((request) => request.data)
 }
 
@@ -24,10 +24,10 @@ export function requestCreateQuestion(question) {
 //         ).then((request) => request.id)
 // }
 
-export function requestUpdateQuestion(question) { 
+export function requestUpdateQuestion(question) {
     return axios
         .put(
-            uri + '/question/update/', 
-            {...question}
+            uri + '/question/update/',
+            { ...question }
         ).then((request) => request.data)
 }

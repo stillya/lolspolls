@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCallback, useEffect, useState } from "react";
 import PollsStore from "../stores/PollsStore";
-import { View, Text, ScrollView, StyleSheet ,SafeAreaView } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 import { observer, useLocalStore, useObserver } from 'mobx-react';
 import PollElement from './PollElement';
 
@@ -37,11 +37,11 @@ function PollList(props) {
       <View style={styles.container}>
         {pollsStore.loaded ?
 
-              <ScrollView>
-                {pollsStore.data.map((item) => (
-                  <PollElement data={item} />
-                ))}
-              </ScrollView>
+          <ScrollView>
+            {pollsStore.data.map((item) => (
+              <PollElement data={item} />
+            ))}
+          </ScrollView>
 
           : <Text>Loading...</Text>}
       </View>
@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     paddingTop: 40,
     paddingHorizontal: 20
-  }});
+  }
+});
 
 export default PollList;
