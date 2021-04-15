@@ -1,4 +1,4 @@
-import { action, observable } from "mobx";
+import { action, makeAutoObservable, makeObservable, observable } from "mobx";
 
 class BaseStore {
   @observable 
@@ -15,7 +15,8 @@ class BaseStore {
   loadData = (rest) => {
     this.loading = true
     this.loaded = false
-    return rest().then(this.loadDataSuccess).catch(this.loadDataError)
+    rest().then(data => this.loadDataSuccess(data)).catch(this.loadDataError)
+
   }
 
 
@@ -23,8 +24,9 @@ class BaseStore {
   // Helpers
   //
 
-  @action
+  @action.bound
   loadDataSuccess(data) {
+
     console.log(data)
     this.loading = false
     this.loaded = true
@@ -33,7 +35,7 @@ class BaseStore {
     return data
   }
 
-  @action
+  @action.bound
   loadDataError(error) {
     console.log("new")
     this.loading = false

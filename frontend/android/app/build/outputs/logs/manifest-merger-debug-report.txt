@@ -1,636 +1,290 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-MERGED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/21c0afc78c4bba5fbfb4df4a1977914c/transformed/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/fa577da09c23885b8114eb701559e5b8/transformed/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:expo-splash-screen] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-updates] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/b667be5ac9de0f3900df20317b12f67f/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-29:12
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/stilya/.gradle/caches/transforms-3/cc3516be6b935fef28b6027bd6c66e81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/stilya/.gradle/caches/transforms-3/d7fbef9416cc3e2ce789c5f7f9500bbc/transformed/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/stilya/.gradle/caches/transforms-3/36638d60b9294d86dcb687a6ec3a7b92/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f2b9245310c1b4c33b30e9cabf7a7b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stilya/.gradle/caches/transforms-3/914731ac8397f2cccd8defc06f0340ff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/6c49d71a2f9af80ddaec1d46f3ff2bd8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [:expo-application] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-error-recovery] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-font] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-image-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-keep-awake] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-linear-gradient] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-permissions] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-secure-store] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-secure-store/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-sqlite] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-app-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-permissions-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-task-manager-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-core] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-barcode-scanner-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-camera-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-constants-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-face-detector-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-file-system-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-font-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-image-loader-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-sensors-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-3/8f42f41de1906eb63a4fbffc5b83b6c2/transformed/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-3/d173576c238ba818a0b7e635f68e0040/transformed/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-3/e8d67f1bfcd3da60f0dc9e8bb5479318/transformed/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-3/41a700d840d153fc5653d07b7f29bf76/transformed/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-3/1fdaf458b5b522692953dc2a018a1098/transformed/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-3/8d7417dda732f2866235c941fdfb8b59/transformed/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/40224d20c2fd45a0f814484b6bb9bf8d/transformed/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-3/5d3f58523e27224feaba5315eff5b38f/transformed/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/4573f3b2bd5c227de49467a48690ac0f/transformed/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-3/9179fd3035387121c1e4232b0fca301a/transformed/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-3/2998bec2e1037bb043cd83eb07e08fcf/transformed/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-3/a78955480777287eecb387f3af624239/transformed/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-3/26172750e69851d7148a41cb1f9fe6f1/transformed/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-3/264d5140e2deb23aa09134f7487fce35/transformed/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-3/fed739fa4b14fe88b2b03c7c8e0c8415/transformed/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.9.0] /home/stilya/.gradle/caches/transforms-3/c0d7774e5348c58f4c4ab75861bfa9be/transformed/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/stilya/.gradle/caches/transforms-3/c6cc85af3ad68c4f8bd550d5e6c5090e/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/stilya/.gradle/caches/transforms-3/b0e3ba2ae466947b9a8bcdbe80d2711d/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/stilya/.gradle/caches/transforms-3/591fdb5aeac97d4db709dbac81c1b4ff/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-3/b356a8f3b3de0131229f2b60780de82f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-3/2924b46e0fb66ed90b42e25e45bbd0e3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-3/7335dcda89a006a64097a6b8ed9212ae/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-3/0547258bcf84fa39ab1dd81907197e42/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-3/6bbebab689c167dd2bd13f3516b27286/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] /home/stilya/.gradle/caches/transforms-3/99544d99588de1fb99093190eda1fb45/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f493ebe9b01412fb8bf9f7848d7024/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/stilya/.gradle/caches/transforms-3/ca441a00d95736109e4d642b5f213ec7/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/5337a42089352cb8d1f6e6cf06621c5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-3/9f58896d4e90ee10709e3eed5ae931b8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-3/704c54aef44c03969678732264cf2477/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-3/bda4aba45d5a75fff10021d1f0b0074d/transformed/activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/fa005024675e6798780e7cd2650f95a5/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-3/4a72511bd9cce50b028f8a2cd7ffbf72/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-3/2e96395cc0e96854586d005d4e8c04b8/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-3/04ef0e2f136e15e57993412009f0dd4b/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-3/647bd137a6bd5053675b46d110bbb10b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stilya/.gradle/caches/transforms-3/349412d02cf367a04f34268d1b8f9e39/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-3/a1ce3a76f7cfabb932a974f1bf92025e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/stilya/.gradle/caches/transforms-3/99f98598b615dd7e9939f3e2c96e52a1/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/stilya/.gradle/caches/transforms-3/b119d114adfd4c3f20d3da51eceff6a8/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-3/b24cc67263674494c88bd288928e0c21/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-3/d91036eb5537cf843d666767e9ed3064/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-3/a5d8e4ab832e9ff7a182de0ef102dd38/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-3/96f6a06b0bad5ed10e579a6184b56ccc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stilya/.gradle/caches/transforms-3/a39b4bdb17104c4b29ce454669959cb4/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stilya/.gradle/caches/transforms-3/18e9de4942039a4868612a885c5fcf6d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/stilya/.gradle/caches/transforms-3/c181091d053f2fbfaf7d120113fcf71f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-3/e65e44b36afe550a190fd6a6311fbb5e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-3/34742f5a1ae7cf099609d26513d7dd4a/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-3/3de5a16c1ec479934aae6a7e01c39158/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-3/dc13b984aba61437670c8358f4d16250/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/05e4be0b168760ddc45dd5318f938b7d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-3/e7233c3dc895018dc6f96f91821467b9/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-3/7eb2842e5b9c65078564a866772c0e3f/transformed/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/d8279ebfbcca51b68586de1b9bc17210/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5f2c193a45b1b439ec8f5a8edcb37f33/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/336cee0c87f467fe6bfb36840b0630b2/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8850ed829d25245e8497182323bc73d2/jetified-drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cedca5e04b0c20fa79ac1887f71f3325/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/e5db14b71da4d91c0ca7d2ee268e707a/jetified-memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c0394800bb3c89c17ec23de03c5f2ca/jetified-memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cf4b730f71bf97441bdf4ebe8cfeeb88/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c35a46a0a862651f1e0a89250dcee30d/jetified-soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ce476dc2f1f7d59691ad234de1ec2fb1/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/f66a3370e9e4f8cb0ae0c6936c538c41/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/fc37ff7af2e3c5de8e592a9550a0df07/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cda5d9a1a957ef402e55e5ba5c5bfd6d/jetified-imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8f540c10f5114d05b8ee24db3e19e1f8/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b51f59890c1c9ada8eed6d21cecc075e/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5e5754defa7ec1b661ffd11a17838c67/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c1c25210c9523b781f68f6e5260d398/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/412f4e60090d6c7e949274f12fef4b1d/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c38f0dcdb4eabb88f8961812937ce545/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ae1a1dddf9cea612695d8157e2ff38cd/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/74153744c3b76afb34d0c28a686a981b/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cbff631e500aff82164944184b49a648/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5af1825acc1d96709826d913b19b2820/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b37a656be7da34e79d326523a32fbcaa/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/29e9e6ac99026fff5bb21139b2ad74ac/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/27e0ecfbdce6f985a506017f5fd54aeb/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5ff10ad0f2bea4b2419e86a549e99aac/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ffdaca04e33e18187dfc99a2b0ddad3b/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:70-92
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:70-92
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:2:5-51
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:1-49:12
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:2:3-64
-MERGED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:15:5-67
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:2:20-62
-uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:4:3-75
-MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:4:3-75
-MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:4:3-75
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:4:20-73
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:5:3-72
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:5:20-70
-uses-permission#android.permission.USE_FINGERPRINT
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:6:3-71
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:6:20-69
-uses-permission#android.permission.USE_BIOMETRIC
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:7:3-69
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:7:20-67
-uses-permission#android.permission.VIBRATE
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:8:3-63
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:8:20-61
-uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:9:3-77
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:9:20-75
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:11:3-78
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:11:20-76
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:12:3-76
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:12:20-74
-uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:13:3-82
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:13:20-80
-uses-permission#android.permission.CAMERA
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:14:3-62
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:14:20-60
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:15:3-68
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:15:20-66
-uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:16:3-69
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:16:20-67
-uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:17:3-70
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:17:20-68
-uses-permission#android.permission.READ_CALENDAR
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:18:3-69
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:18:20-67
-uses-permission#android.permission.WRITE_CALENDAR
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:19:3-70
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:19:20-68
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:20:3-77
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:20:20-75
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:21:3-78
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:21:20-76
-uses-permission#android.permission.WRITE_SETTINGS
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:22:3-70
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:22:20-68
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:24:3-48:17
-MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:24:3-48:17
-MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:24:3-48:17
-MERGED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
-MERGED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
-MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/b667be5ac9de0f3900df20317b12f67f/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/b667be5ac9de0f3900df20317b12f67f/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-27:19
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/stilya/.gradle/caches/transforms-3/cc3516be6b935fef28b6027bd6c66e81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/stilya/.gradle/caches/transforms-3/cc3516be6b935fef28b6027bd6c66e81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/stilya/.gradle/caches/transforms-3/d7fbef9416cc3e2ce789c5f7f9500bbc/transformed/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/stilya/.gradle/caches/transforms-3/d7fbef9416cc3e2ce789c5f7f9500bbc/transformed/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/stilya/.gradle/caches/transforms-3/36638d60b9294d86dcb687a6ec3a7b92/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/stilya/.gradle/caches/transforms-3/36638d60b9294d86dcb687a6ec3a7b92/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.soloader:soloader:0.9.0] /home/stilya/.gradle/caches/transforms-3/c0d7774e5348c58f4c4ab75861bfa9be/transformed/soloader-0.9.0/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.9.0] /home/stilya/.gradle/caches/transforms-3/c0d7774e5348c58f4c4ab75861bfa9be/transformed/soloader-0.9.0/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/stilya/.gradle/caches/transforms-3/b0e3ba2ae466947b9a8bcdbe80d2711d/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/stilya/.gradle/caches/transforms-3/b0e3ba2ae466947b9a8bcdbe80d2711d/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/stilya/.gradle/caches/transforms-3/ca441a00d95736109e4d642b5f213ec7/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/stilya/.gradle/caches/transforms-3/ca441a00d95736109e4d642b5f213ec7/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-3/b24cc67263674494c88bd288928e0c21/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-3/b24cc67263674494c88bd288928e0c21/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:26:5-37
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:26:5-37
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:6:75-114
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:28:5-50
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:28:5-50
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:6:54-74
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:27:5-39
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:27:5-39
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:29:5-32
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:29:5-32
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:30:5-36
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:30:5-36
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml:6:18-53
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:25:5-36
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:25:5-36
-meta-data#expo.modules.updates.EXPO_UPDATE_URL
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:32:5-103
-	android:value
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:32:68-101
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:32:16-67
-meta-data#expo.modules.updates.EXPO_SDK_VERSION
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:33:5-112
-	android:value
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:33:69-110
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:33:16-68
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.frontend.MainActivity
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:34:5-46:16
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:13:7-23:18
 	android:label
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:36:7-39
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:launchMode
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:38:7-38
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:39:7-49
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:37:7-84
-	android:theme
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:40:7-52
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:16:9-86
 	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:35:7-35
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:42:7-45:23
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:43:9-60
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:43:17-58
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:44:9-68
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:44:19-66
-activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:47:5-81
-	android:name
-		ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:47:15-79
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/21c0afc78c4bba5fbfb4df4a1977914c/transformed/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/21c0afc78c4bba5fbfb4df4a1977914c/transformed/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/fa577da09c23885b8114eb701559e5b8/transformed/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/stilya/.gradle/caches/transforms-3/fa577da09c23885b8114eb701559e5b8/transformed/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/b667be5ac9de0f3900df20317b12f67f/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/b667be5ac9de0f3900df20317b12f67f/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/stilya/.gradle/caches/transforms-3/cc3516be6b935fef28b6027bd6c66e81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/stilya/.gradle/caches/transforms-3/cc3516be6b935fef28b6027bd6c66e81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/stilya/.gradle/caches/transforms-3/d7fbef9416cc3e2ce789c5f7f9500bbc/transformed/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/stilya/.gradle/caches/transforms-3/d7fbef9416cc3e2ce789c5f7f9500bbc/transformed/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/stilya/.gradle/caches/transforms-3/36638d60b9294d86dcb687a6ec3a7b92/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/stilya/.gradle/caches/transforms-3/36638d60b9294d86dcb687a6ec3a7b92/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f2b9245310c1b4c33b30e9cabf7a7b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f2b9245310c1b4c33b30e9cabf7a7b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stilya/.gradle/caches/transforms-3/914731ac8397f2cccd8defc06f0340ff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stilya/.gradle/caches/transforms-3/914731ac8397f2cccd8defc06f0340ff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/6c49d71a2f9af80ddaec1d46f3ff2bd8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/6c49d71a2f9af80ddaec1d46f3ff2bd8/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [:expo-application] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-application] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-application/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-linear-gradient] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-linear-gradient] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-secure-store] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-secure-store/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-secure-store] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-secure-store/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-sqlite] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-sqlite] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-3/8f42f41de1906eb63a4fbffc5b83b6c2/transformed/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-3/8f42f41de1906eb63a4fbffc5b83b6c2/transformed/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-3/d173576c238ba818a0b7e635f68e0040/transformed/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-3/d173576c238ba818a0b7e635f68e0040/transformed/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-3/e8d67f1bfcd3da60f0dc9e8bb5479318/transformed/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-3/e8d67f1bfcd3da60f0dc9e8bb5479318/transformed/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-3/41a700d840d153fc5653d07b7f29bf76/transformed/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-3/41a700d840d153fc5653d07b7f29bf76/transformed/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-3/1fdaf458b5b522692953dc2a018a1098/transformed/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-3/1fdaf458b5b522692953dc2a018a1098/transformed/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-3/8d7417dda732f2866235c941fdfb8b59/transformed/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-3/8d7417dda732f2866235c941fdfb8b59/transformed/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/40224d20c2fd45a0f814484b6bb9bf8d/transformed/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/40224d20c2fd45a0f814484b6bb9bf8d/transformed/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-3/5d3f58523e27224feaba5315eff5b38f/transformed/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-3/5d3f58523e27224feaba5315eff5b38f/transformed/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/4573f3b2bd5c227de49467a48690ac0f/transformed/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-3/4573f3b2bd5c227de49467a48690ac0f/transformed/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-3/9179fd3035387121c1e4232b0fca301a/transformed/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-3/9179fd3035387121c1e4232b0fca301a/transformed/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-3/2998bec2e1037bb043cd83eb07e08fcf/transformed/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-3/2998bec2e1037bb043cd83eb07e08fcf/transformed/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-3/a78955480777287eecb387f3af624239/transformed/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-3/a78955480777287eecb387f3af624239/transformed/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-3/26172750e69851d7148a41cb1f9fe6f1/transformed/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-3/26172750e69851d7148a41cb1f9fe6f1/transformed/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-3/264d5140e2deb23aa09134f7487fce35/transformed/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-3/264d5140e2deb23aa09134f7487fce35/transformed/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-3/fed739fa4b14fe88b2b03c7c8e0c8415/transformed/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-3/fed739fa4b14fe88b2b03c7c8e0c8415/transformed/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] /home/stilya/.gradle/caches/transforms-3/c0d7774e5348c58f4c4ab75861bfa9be/transformed/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] /home/stilya/.gradle/caches/transforms-3/c0d7774e5348c58f4c4ab75861bfa9be/transformed/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/6fe9f0aa33e8deafa0b24cee03fcc6a9/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/stilya/.gradle/caches/transforms-3/c6cc85af3ad68c4f8bd550d5e6c5090e/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /home/stilya/.gradle/caches/transforms-3/c6cc85af3ad68c4f8bd550d5e6c5090e/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/stilya/.gradle/caches/transforms-3/b0e3ba2ae466947b9a8bcdbe80d2711d/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/stilya/.gradle/caches/transforms-3/b0e3ba2ae466947b9a8bcdbe80d2711d/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/stilya/.gradle/caches/transforms-3/591fdb5aeac97d4db709dbac81c1b4ff/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/stilya/.gradle/caches/transforms-3/591fdb5aeac97d4db709dbac81c1b4ff/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-3/b356a8f3b3de0131229f2b60780de82f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-3/b356a8f3b3de0131229f2b60780de82f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-3/2924b46e0fb66ed90b42e25e45bbd0e3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-3/2924b46e0fb66ed90b42e25e45bbd0e3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-3/7335dcda89a006a64097a6b8ed9212ae/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-3/7335dcda89a006a64097a6b8ed9212ae/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-3/0547258bcf84fa39ab1dd81907197e42/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-3/0547258bcf84fa39ab1dd81907197e42/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-3/6bbebab689c167dd2bd13f3516b27286/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-3/6bbebab689c167dd2bd13f3516b27286/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] /home/stilya/.gradle/caches/transforms-3/99544d99588de1fb99093190eda1fb45/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/stilya/.gradle/caches/transforms-3/99544d99588de1fb99093190eda1fb45/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f493ebe9b01412fb8bf9f7848d7024/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stilya/.gradle/caches/transforms-3/d1f493ebe9b01412fb8bf9f7848d7024/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/stilya/.gradle/caches/transforms-3/ca441a00d95736109e4d642b5f213ec7/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/stilya/.gradle/caches/transforms-3/ca441a00d95736109e4d642b5f213ec7/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/5337a42089352cb8d1f6e6cf06621c5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/5337a42089352cb8d1f6e6cf06621c5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-3/9f58896d4e90ee10709e3eed5ae931b8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-3/9f58896d4e90ee10709e3eed5ae931b8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-3/704c54aef44c03969678732264cf2477/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-3/704c54aef44c03969678732264cf2477/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-3/bda4aba45d5a75fff10021d1f0b0074d/transformed/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-3/bda4aba45d5a75fff10021d1f0b0074d/transformed/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/fa005024675e6798780e7cd2650f95a5/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/fa005024675e6798780e7cd2650f95a5/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-3/4a72511bd9cce50b028f8a2cd7ffbf72/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-3/4a72511bd9cce50b028f8a2cd7ffbf72/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-3/2e96395cc0e96854586d005d4e8c04b8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-3/2e96395cc0e96854586d005d4e8c04b8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-3/04ef0e2f136e15e57993412009f0dd4b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-3/04ef0e2f136e15e57993412009f0dd4b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-3/647bd137a6bd5053675b46d110bbb10b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-3/647bd137a6bd5053675b46d110bbb10b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stilya/.gradle/caches/transforms-3/349412d02cf367a04f34268d1b8f9e39/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stilya/.gradle/caches/transforms-3/349412d02cf367a04f34268d1b8f9e39/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /home/stilya/.gradle/caches/transforms-3/b20601c94a4be13df0ef801b004b15d8/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-3/a1ce3a76f7cfabb932a974f1bf92025e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-3/a1ce3a76f7cfabb932a974f1bf92025e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/stilya/.gradle/caches/transforms-3/99f98598b615dd7e9939f3e2c96e52a1/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/stilya/.gradle/caches/transforms-3/99f98598b615dd7e9939f3e2c96e52a1/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/stilya/.gradle/caches/transforms-3/b119d114adfd4c3f20d3da51eceff6a8/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/stilya/.gradle/caches/transforms-3/b119d114adfd4c3f20d3da51eceff6a8/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-3/b24cc67263674494c88bd288928e0c21/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-3/b24cc67263674494c88bd288928e0c21/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-3/d91036eb5537cf843d666767e9ed3064/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-3/d91036eb5537cf843d666767e9ed3064/transformed/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-3/a5d8e4ab832e9ff7a182de0ef102dd38/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-3/a5d8e4ab832e9ff7a182de0ef102dd38/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-3/96f6a06b0bad5ed10e579a6184b56ccc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-3/96f6a06b0bad5ed10e579a6184b56ccc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stilya/.gradle/caches/transforms-3/a39b4bdb17104c4b29ce454669959cb4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stilya/.gradle/caches/transforms-3/a39b4bdb17104c4b29ce454669959cb4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stilya/.gradle/caches/transforms-3/18e9de4942039a4868612a885c5fcf6d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stilya/.gradle/caches/transforms-3/18e9de4942039a4868612a885c5fcf6d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/stilya/.gradle/caches/transforms-3/c181091d053f2fbfaf7d120113fcf71f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/stilya/.gradle/caches/transforms-3/c181091d053f2fbfaf7d120113fcf71f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-3/e65e44b36afe550a190fd6a6311fbb5e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-3/e65e44b36afe550a190fd6a6311fbb5e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-3/34742f5a1ae7cf099609d26513d7dd4a/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-3/34742f5a1ae7cf099609d26513d7dd4a/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-3/3de5a16c1ec479934aae6a7e01c39158/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-3/3de5a16c1ec479934aae6a7e01c39158/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-3/dc13b984aba61437670c8358f4d16250/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-3/dc13b984aba61437670c8358f4d16250/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/05e4be0b168760ddc45dd5318f938b7d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/05e4be0b168760ddc45dd5318f938b7d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-3/e7233c3dc895018dc6f96f91821467b9/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-3/e7233c3dc895018dc6f96f91821467b9/transformed/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-3/7eb2842e5b9c65078564a866772c0e3f/transformed/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-3/7eb2842e5b9c65078564a866772c0e3f/transformed/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/d8279ebfbcca51b68586de1b9bc17210/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/d8279ebfbcca51b68586de1b9bc17210/jetified-flipper-network-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/test/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5f2c193a45b1b439ec8f5a8edcb37f33/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5f2c193a45b1b439ec8f5a8edcb37f33/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/336cee0c87f467fe6bfb36840b0630b2/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/336cee0c87f467fe6bfb36840b0630b2/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8850ed829d25245e8497182323bc73d2/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8850ed829d25245e8497182323bc73d2/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cedca5e04b0c20fa79ac1887f71f3325/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cedca5e04b0c20fa79ac1887f71f3325/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/e5db14b71da4d91c0ca7d2ee268e707a/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/e5db14b71da4d91c0ca7d2ee268e707a/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c0394800bb3c89c17ec23de03c5f2ca/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c0394800bb3c89c17ec23de03c5f2ca/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cf4b730f71bf97441bdf4ebe8cfeeb88/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cf4b730f71bf97441bdf4ebe8cfeeb88/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c35a46a0a862651f1e0a89250dcee30d/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c35a46a0a862651f1e0a89250dcee30d/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ce476dc2f1f7d59691ad234de1ec2fb1/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ce476dc2f1f7d59691ad234de1ec2fb1/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/f66a3370e9e4f8cb0ae0c6936c538c41/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/f66a3370e9e4f8cb0ae0c6936c538c41/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/fc37ff7af2e3c5de8e592a9550a0df07/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/fc37ff7af2e3c5de8e592a9550a0df07/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cda5d9a1a957ef402e55e5ba5c5bfd6d/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cda5d9a1a957ef402e55e5ba5c5bfd6d/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8f540c10f5114d05b8ee24db3e19e1f8/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/8f540c10f5114d05b8ee24db3e19e1f8/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b51f59890c1c9ada8eed6d21cecc075e/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b51f59890c1c9ada8eed6d21cecc075e/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/803d31b2df2f8d968e6cb7c3ffa37ef9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5e5754defa7ec1b661ffd11a17838c67/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/5e5754defa7ec1b661ffd11a17838c67/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c1c25210c9523b781f68f6e5260d398/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/3c1c25210c9523b781f68f6e5260d398/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/412f4e60090d6c7e949274f12fef4b1d/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/412f4e60090d6c7e949274f12fef4b1d/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c38f0dcdb4eabb88f8961812937ce545/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/c38f0dcdb4eabb88f8961812937ce545/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ae1a1dddf9cea612695d8157e2ff38cd/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ae1a1dddf9cea612695d8157e2ff38cd/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/74153744c3b76afb34d0c28a686a981b/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/74153744c3b76afb34d0c28a686a981b/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cbff631e500aff82164944184b49a648/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/cbff631e500aff82164944184b49a648/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5af1825acc1d96709826d913b19b2820/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5af1825acc1d96709826d913b19b2820/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/dcc76cd07ebcaa6166d73d461b1667fa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b37a656be7da34e79d326523a32fbcaa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/b37a656be7da34e79d326523a32fbcaa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/29e9e6ac99026fff5bb21139b2ad74ac/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/29e9e6ac99026fff5bb21139b2ad74ac/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/27e0ecfbdce6f985a506017f5fd54aeb/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/27e0ecfbdce6f985a506017f5fd54aeb/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5ff10ad0f2bea4b2419e86a549e99aac/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/5ff10ad0f2bea4b2419e86a549e99aac/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ffdaca04e33e18187dfc99a2b0ddad3b/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/stilya/.gradle/caches/transforms-2/files-2.1/ffdaca04e33e18187dfc99a2b0ddad3b/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:11:9-86
+	android:name
+		ADDED from /home/stilya/code/java/stillya/test/frontend/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/stilya/.gradle/caches/transforms-3/87f926e6def0e37443f5396b6380bc47/transformed/flipper-0.54.0/AndroidManifest.xml:16:22-73
-meta-data#org.unimodules.core.AppLoader#react-native-headless
-ADDED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
-	android:value
-		ADDED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
-	android:name
-		ADDED from [:unimodules-react-native-adapter] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:expo-updates] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
-	android:name
-		ADDED from [:expo-updates] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
-provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-26:20
-	android:grantUriPermissions
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-47
-	android:authorities
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
-	android:exported
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
-	tools:replace
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-48
-	android:name
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:70
-	android:resource
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
-	android:name
-		ADDED from [:expo-file-system] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-67
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
-	android:name
-		ADDED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
-service#expo.modules.location.services.LocationTaskService
-ADDED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
-	android:exported
-		ADDED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
-	android:name
-		ADDED from [:expo-location] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/stilya/.gradle/caches/transforms-3/cec21e1c1c2ededf25517cf65595e095/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/stilya/.gradle/caches/transforms-3/fd45b7cb10312d4b2fdb7f34e3cb1df4/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.room:room-runtime:2.1.0] /home/stilya/.gradle/caches/transforms-3/2f33c586029ad4d731fe5b93c2375a28/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
-uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
-	android:name
-		ADDED from [com.android.installreferrer:installreferrer:1.0] /home/stilya/.gradle/caches/transforms-3/d03ff19e51dffe52057464f208bf1d98/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
-uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
-uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
-service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
-service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
-service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/stilya/.gradle/caches/transforms-3/8bf15f3fed1ddcdefbe65413a476af56/transformed/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+		ADDED from [com.facebook.flipper:flipper:0.75.1] /home/stilya/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73

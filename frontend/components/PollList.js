@@ -1,9 +1,9 @@
 import React from 'react';
-import { useLocalStore, useObserver } from "mobx-react-lite";
 import { useCallback, useEffect, useState } from "react";
 import PollsStore from "../stores/PollsStore";
-import { View, Text } from 'react-native';
-import { observer } from 'mobx-react';
+import { View, Text, ScrollView, StyleSheet ,SafeAreaView } from 'react-native';
+import { observer, useLocalStore, useObserver } from 'mobx-react';
+import PollElement from './PollElement';
 
 function PollList(props) {
   // stores
@@ -29,20 +29,32 @@ function PollList(props) {
 
   useEffect(() => {
     pollsStore.loadPolls();
-  })
-  
+  }, [])
+
   return useObserver(() => {
     console.log(pollsStore.loaded)
     return (
-    <View>
-        {pollsStore.loaded ? pollsStore.data.map((prop, key) => {
-        (
-          <Text key={key}>{prop[1]}</Text>
-        )
-      }) : <Text>Loading...</Text> }
-    </View>
+      <View style={styles.container}>
+        {pollsStore.loaded ?
+
+              <ScrollView>
+                {pollsStore.data.map((item) => (
+                  <PollElement data={item} />
+                ))}
+              </ScrollView>
+
+          : <Text>Loading...</Text>}
+      </View>
     )
   })
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingTop: 40,
+    paddingHorizontal: 20
+  }});
 
 export default PollList;

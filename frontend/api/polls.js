@@ -1,12 +1,14 @@
 import axios from 'axios'
 
-const uri = "http://f27d9c68a437.ngrok.io/api"
+const uri = "http://535d24d7b47a.ngrok.io/api"
 
 export function requestPolls() { 
     return axios
         .get(
         uri + '/poll'
-        ).then((response) => response.data)
+        ).then((response) => {
+            console.log(response.data);
+            return response.data})
 }
 
 export function requestCreatePoll(poll) {
