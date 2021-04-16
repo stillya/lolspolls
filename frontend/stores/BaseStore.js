@@ -19,6 +19,13 @@ class BaseStore {
 
   }
 
+  refreshData = (rest) => {
+    this.loading = false
+    this.loaded = true
+    rest().then(data => this.loadDataSuccess(data)).catch(this.loadDataError)
+
+  }
+
 
   //
   // Helpers

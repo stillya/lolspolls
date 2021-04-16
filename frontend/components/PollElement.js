@@ -6,11 +6,11 @@ function PollElement(props) {
 
     return (
         <View>
-            <Card style={styles.item} >
+            <Card style={styles.item}>
                 <CardItem style={styles.container} >
                     <Text style={styles.text}>{props.data.name}</Text>
                 </CardItem>
-                <Text style={styles.subtext}>{props.data.date}</Text>
+                <Text style={styles.subtext}>{props.data.date} | {props.data.owner.name}</Text>
             </Card>
         </View>
     )

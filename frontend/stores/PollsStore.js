@@ -26,6 +26,12 @@ class PollsStore extends BaseStore {
         return this.loadData(rest)
     }
 
+    @action.bound
+    refreshPolls() {
+        const rest = (() => requestPolls())
+        return this.refreshData(rest)
+    }
+
     @action
     createPoll(poll) {
         return requestCreatePoll(poll)

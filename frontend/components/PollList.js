@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCallback, useEffect, useState } from "react";
 import PollsStore from "../stores/PollsStore";
-import { View, Text, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, SafeAreaView, RefreshControl } from 'react-native';
 import { observer, useLocalStore, useObserver } from 'mobx-react';
 import PollElement from './PollElement';
 import { Container, Spinner } from 'native-base';
@@ -16,6 +16,7 @@ function PollList(props) {
 
   // values
 
+  const [refreshing, setRefreshing] = useState(false);
   const [creationModalOpened, setCreationModalOpened] = useState(false)
   const [updateModalOpened, setUpdateModalOpened] = useState(false)
 
@@ -28,6 +29,12 @@ function PollList(props) {
     })
   })
 
+  const handleUpdatePoll = useCallback(() => {
+    setRefreshing(true);
+    pollsStore.refreshPolls()
+    setRefreshing(false)
+  }, [pollsStore])
+
   // life cycle
 
   useEffect(() => {
@@ -37,19 +44,28 @@ function PollList(props) {
   return useObserver(() => {
     console.log(pollsStore.loaded)
     return (
-      <View>
+      <View styles={styles.container}>
+
         <MainHeader />
+
         {pollsStore.loaded ?
 
-          <ScrollView>
-            {pollsStore.data.map((item) => (
-              <PollElement data={item} />
-            ))}
-          </ScrollView>
+          <RefreshControl style={{ marginBottom: 100 }}
+            refreshing={refreshing}
+            onRefresh={handleUpdatePoll}>
+
+            <ScrollView>
+              {pollsStore.data.map((item) => (
+                <PollElement data={item} />
+              ))}
+            </ScrollView>
+            
+          </RefreshControl>
 
           :
           <MainSpinner />
         }
+
       </View>
     )
   })
@@ -57,10 +73,6 @@ function PollList(props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#F2F2F2',
-    paddingTop: 40,
-    paddingHorizontal: 20,
   }
 });
 
