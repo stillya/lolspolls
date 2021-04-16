@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/stilya/code/java/stillya/test/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/home/stilya/code/java/stillya/lolspolls/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/stilya/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/stilya/.gradle/caches/transforms-3/7f94d0dd6545eac5eb585e837d4169c6/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

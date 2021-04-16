@@ -12,6 +12,8 @@ target 'frontend' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'
+
   target 'frontendTests' do
     inherit! :complete
     # Pods for testing

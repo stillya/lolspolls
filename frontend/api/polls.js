@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const uri = "http://535d24d7b47a.ngrok.io/api"
+const uri = "http://6dfb33a94a12.ngrok.io/api"
 
 export function requestPolls() {
     return axios

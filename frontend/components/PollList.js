@@ -4,6 +4,9 @@ import PollsStore from "../stores/PollsStore";
 import { View, Text, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 import { observer, useLocalStore, useObserver } from 'mobx-react';
 import PollElement from './PollElement';
+import { Container, Spinner } from 'native-base';
+import MainSpinner from './commons/MainSpinner';
+import MainHeader from './commons/MainHeader';
 
 function PollList(props) {
   // stores
@@ -34,7 +37,8 @@ function PollList(props) {
   return useObserver(() => {
     console.log(pollsStore.loaded)
     return (
-      <View style={styles.container}>
+      <View>
+        <MainHeader />
         {pollsStore.loaded ?
 
           <ScrollView>
@@ -43,7 +47,9 @@ function PollList(props) {
             ))}
           </ScrollView>
 
-          : <Text>Loading...</Text>}
+          :
+          <MainSpinner />
+        }
       </View>
     )
   })
@@ -52,9 +58,9 @@ function PollList(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F2F2F2',
     paddingTop: 40,
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
   }
 });
 
