@@ -7,6 +7,7 @@ import PollElement from './PollElement';
 import { Container, Spinner } from 'native-base';
 import MainSpinner from './commons/MainSpinner';
 import MainHeader from './commons/MainHeader';
+import { useHistory } from 'react-router';
 
 function PollList(props) {
   // stores
@@ -35,6 +36,7 @@ function PollList(props) {
     setRefreshing(false)
   }, [pollsStore])
 
+
   // life cycle
 
   useEffect(() => {
@@ -42,7 +44,6 @@ function PollList(props) {
   }, [])
 
   return useObserver(() => {
-    console.log(pollsStore.loaded)
     return (
       <View styles={styles.container}>
 

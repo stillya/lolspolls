@@ -11,7 +11,7 @@ function Routes() {
             <Route path="/polls">
                 <PollList />
             </Route>
-            <Route path="/polls/:pollId">
+            <Route path="/poll/:pollId">
                 <Poll />
             </Route>
             <Route path="/questions">

@@ -1,17 +1,21 @@
 import React from 'react';
+import { useCallback } from "react";
 import { View, Text, StyleSheet } from 'react-native';
 import { Container, Header, Content, Card, CardItem, Body } from 'native-base';
+import { Link, useHistory } from "react-router-native";
 
 function PollElement(props) {
 
     return (
         <View>
-            <Card style={styles.item}>
-                <CardItem style={styles.container} >
-                    <Text style={styles.text}>{props.data.name}</Text>
-                </CardItem>
-                <Text style={styles.subtext}>{props.data.date} | {props.data.owner.name}</Text>
-            </Card>
+            <Link to={'/poll/' + props.data.id} style={{  }}>
+                <Card style={styles.item}>
+                    <CardItem style={styles.container} onPress={props.onClick}>
+                        <Text style={styles.text}>{props.data.name}</Text>
+                    </CardItem>
+                    <Text style={styles.subtext}>{props.data.date} | {props.data.owner.name}</Text>
+                </Card>
+            </Link>
         </View>
     )
 
