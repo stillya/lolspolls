@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const uri = process.env.REACT_APP_API_URI + process.env.REACT_APP_API_PREFIX
+const uri = "http://d6fba04777bf.ngrok.io/api"
 
 export function requestQuestions(pollId) {
     return axios
