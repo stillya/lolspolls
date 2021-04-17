@@ -2,7 +2,10 @@ import BaseStore from "./BaseStore";
 import { action, makeObservable, observable } from "mobx";
 import { requestQuestions } from "../api/questions";
 
-class QuestionsStore extends BaseStore { 
+class QuestionsStore extends BaseStore {
+
+    @observable
+    elementsMap = new Map(); // key - id, value - ans
 
     constructor() {
         super()
@@ -10,14 +13,21 @@ class QuestionsStore extends BaseStore {
             loading: observable,
             loaded: observable,
             data: observable,
+            elementsMap: observable,
             loadDataSuccess: action.bound,
             loadDataError: action.bound,
             loadData: action.bound,
             loadQuestions: action.bound,
             createQuestion: action.bound,
             deleteQuestion: action.bound,
-            refreshQuestions: action.bound
+            refreshQuestions: action.bound, 
+            set: action.bound
         });
+    }
+
+    @action.bound
+    set(key, value) {
+        return this.elementsMap.set(key, value)
     }
 
     @action.bound

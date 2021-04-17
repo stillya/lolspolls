@@ -46,7 +46,7 @@ function QuestionList(props) {
 
                         <ScrollView>
                             {questionsStore.data.map((item) => (
-                                <QuestionElement data={item} />
+                                <QuestionElement data={item} store={questionsStore} />
                             ))}
                         </ScrollView>
 

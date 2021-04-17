@@ -2,15 +2,17 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Card, CardItem } from "native-base";
 import { Divider } from 'react-native-elements';
+import Elements from './Elements';
 
 function QuestionElement(props) {
 
     return (
         <View>
             <Card style={styles.item}>
+                <Text style={styles.text}>{props.data.name}</Text>
+                <Divider style={{ backgroundColor: '#CDCDC5', bottom: 10 }}></Divider>
                 <CardItem style={styles.container}>
-                <Divider style={{ backgroundColor: '#CDCDC5', }}></Divider>
-                    <Text style={styles.text}>{props.data.name}</Text>
+                    <Elements data={props.data} store={props.store} />
                 </CardItem>
 
             </Card>
@@ -23,7 +25,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-        height: 50
     },
     item: {
         marginRight: 30,
@@ -37,6 +38,9 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 15,
         color: '#000000',
+        bottom: 13,
+        paddingLeft: 10, 
+        fontWeight: "bold"
     },
     subtext: {
         color: '#CDCDC5',

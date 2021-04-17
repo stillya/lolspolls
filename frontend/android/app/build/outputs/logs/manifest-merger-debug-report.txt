@@ -13,7 +13,7 @@ MERGED from [:react-native-reanimated] /home/stilya/code/java/stillya/lolspolls/
 MERGED from [:react-native-safe-area-context] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.64.0] /home/stilya/.gradle/caches/transforms-3/37305fc32486339a1bac8726dca2796e/transformed/jetified-react-native-0.64.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/169a248f413a373657f3d01f41203acd/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/b58240a19b66a897ddbdd3416426a8db/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-3/d2352719539cde861ff862a09ea77bab/transformed/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-material-kit] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-material-kit/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -93,8 +93,8 @@ application
 ADDED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/stilya/code/java/stillya/lolspolls/frontend/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.64.0] /home/stilya/.gradle/caches/transforms-3/37305fc32486339a1bac8726dca2796e/transformed/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.64.0] /home/stilya/.gradle/caches/transforms-3/37305fc32486339a1bac8726dca2796e/transformed/jetified-react-native-0.64.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/169a248f413a373657f3d01f41203acd/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/169a248f413a373657f3d01f41203acd/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-3/0fe7c3ed7a2569909846aeed6d3ef603/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/stilya/.gradle/caches/transforms-3/0fe7c3ed7a2569909846aeed6d3ef603/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/stilya/.gradle/caches/transforms-3/7f94d0dd6545eac5eb585e837d4169c6/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -171,8 +171,8 @@ MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/fro
 MERGED from [:react-native-screens] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/stilya/code/java/stillya/lolspolls/frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.64.0] /home/stilya/.gradle/caches/transforms-3/37305fc32486339a1bac8726dca2796e/transformed/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.64.0] /home/stilya/.gradle/caches/transforms-3/37305fc32486339a1bac8726dca2796e/transformed/jetified-react-native-0.64.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/169a248f413a373657f3d01f41203acd/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /home/stilya/.gradle/caches/transforms-3/169a248f413a373657f3d01f41203acd/transformed/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/b58240a19b66a897ddbdd3416426a8db/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stilya/.gradle/caches/transforms-3/b58240a19b66a897ddbdd3416426a8db/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/stilya/.gradle/caches/transforms-3/d2352719539cde861ff862a09ea77bab/transformed/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
