@@ -5,8 +5,10 @@ import MainHeader from "./commons/MainHeader";
 import QuestionsStore from '../stores/QuestionsStore';
 import MainSpinner from './commons/MainSpinner';
 import { useCallback, useEffect, useState } from "react";
-import { View, Text, ScrollView, RefreshControl } from 'react-native';
+import { View, Text, ScrollView, RefreshControl, StyleSheet } from 'react-native';
 import QuestionElement from './QuestionElement';
+import { Button } from 'native-base';
+import { color } from 'react-native-reanimated';
 
 function QuestionList(props) {
     // stores
@@ -48,6 +50,11 @@ function QuestionList(props) {
                             {questionsStore.data.map((item) => (
                                 <QuestionElement data={item} store={questionsStore} />
                             ))}
+
+                            <Button style={styles.container} rounded dark>
+                                <Text style={styles.text}>Send</Text>
+                            </Button>
+                            
                         </ScrollView>
 
                     </RefreshControl>
@@ -60,5 +67,21 @@ function QuestionList(props) {
     })
 
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        marginTop: 15,
+        marginLeft: 80,
+        marginRight: 80,
+        color: '#fff'
+    }, 
+    text: {
+        color: '#DCAD76',
+        fontWeight: 'normal',
+        fontFamily: "LeckerliOne-Regular",
+        fontSize: 22
+    }
+})
 
 export default QuestionList;

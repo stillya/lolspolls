@@ -4,8 +4,10 @@ import { requestQuestions } from "../api/questions";
 
 class QuestionsStore extends BaseStore {
 
-    @observable
-    elementsMap = new Map(); // key - id, value - ans
+    elementsRadioMap = new Map(); // key - id, value - ans
+
+    elementsAreaMap = new Map(); // key - id, value - area ans
+
 
     constructor() {
         super()
@@ -13,7 +15,6 @@ class QuestionsStore extends BaseStore {
             loading: observable,
             loaded: observable,
             data: observable,
-            elementsMap: observable,
             loadDataSuccess: action.bound,
             loadDataError: action.bound,
             loadData: action.bound,
@@ -21,13 +22,7 @@ class QuestionsStore extends BaseStore {
             createQuestion: action.bound,
             deleteQuestion: action.bound,
             refreshQuestions: action.bound, 
-            set: action.bound
         });
-    }
-
-    @action.bound
-    set(key, value) {
-        return this.elementsMap.set(key, value)
     }
 
     @action.bound
