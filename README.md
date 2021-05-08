@@ -4,8 +4,8 @@
   <a href="https://github.com/stillya/lolspolls/blob/master/LICENSE" target="_blank">
     <img alt="License: GPL--3.0" src="https://img.shields.io/badge/License-GPL--3.0-yellow.svg" />
   </a>
-  <a href="https://twitter.com/elite\_twitt" target="_blank">
-    <img alt="Twitter: elite\_twitt" src="https://img.shields.io/twitter/follow/elite\_twitt.svg?style=social" />
+  <a href="https://twitter.com/elite_twitt" target="_blank">
+    <img alt="Twitter: elite_twitt" src="https://img.shields.io/twitter/follow/elite\_twitt.svg?style=social" />
   </a>
 </p>
 
