@@ -37,7 +37,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Ilya Starchenko](https://github.com/stillya).<br />
-This project is [GPL--3.0](https://github.com/stillya/lolspolls/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+This project is [GPL-3.0](https://github.com/stillya/lolspolls/blob/master/LICENSE) licensed.
