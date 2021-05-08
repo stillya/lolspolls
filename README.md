@@ -2,10 +2,10 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/stillya/lolspolls/blob/master/LICENSE" target="_blank">
-    <img alt="License: GPL--3.0" src="https://img.shields.io/badge/License-GPL--3.0-yellow.svg" />
+    <img alt="License: GPL--3.0" src="https://img.shields.io/badge/License-GPL-3.0-yellow.svg" />
   </a>
   <a href="https://twitter.com/elite_twitt" target="_blank">
-    <img alt="Twitter: elite_twitt" src="https://img.shields.io/twitter/follow/elite\_twitt.svg?style=social" />
+    <img alt="Twitter: elite_twitt" src="https://img.shields.io/twitter/follow/elite_twitt.svg?style=social" />
   </a>
 </p>
 
