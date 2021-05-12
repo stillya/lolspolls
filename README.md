@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> It's application for creating polls and collecting data from them. It was created for OMGTU purposes.
+> It's application for creating polls and collecting data from them. It was created for OmSTU purposes.
 
 ## Install
 
